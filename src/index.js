@@ -1,5 +1,6 @@
 import homeRender from "./home.js";
 import menuRender from "./menu.js";
+import aboutRender from "./about.js";
 import "./style.scss";
 
 const content = document.getElementById("content");
@@ -25,6 +26,10 @@ function btnClick(e) {
   if (e.target.value === "home") {
     resetRender();
     homeRender();
+  }
+  if (e.target.value === "about") {
+    resetRender();
+    aboutRender();
   }
 }
 

@@ -1,5 +1,5 @@
 const menuRender = () => {
-  const paraMenu1 = document.createElement("p");
+  const paraMenu1 = document.createElement("h2");
   const paraMenu2 = document.createElement("p");
 
   paraMenu1.textContent = "Menu";
